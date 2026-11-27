@@ -38,6 +38,8 @@ flutter:
 
   assets:
     - assets/images/
+    - assets/images/tasbih/
+    - assets/images/onboarding/
     - assets/icons/
     - assets/quran/
     - assets/hadeeth/

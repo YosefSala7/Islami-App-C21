@@ -15,9 +15,7 @@ abstract class AppThemeManager {
         fontWeight: FontWeight.bold,
         color: AppColors.primary,
       ),
-      iconTheme: IconThemeData(
-        color: AppColors.primary,
-      )
+      iconTheme: IconThemeData(color: AppColors.primary),
     ),
     bottomNavigationBarTheme: BottomNavigationBarThemeData(
       type: BottomNavigationBarType.fixed,
@@ -53,6 +51,21 @@ abstract class AppThemeManager {
         fontFamily: "Janna",
         fontWeight: FontWeight.bold,
         color: AppColors.darkBlack,
+      ),
+      displaySmall: TextStyle(
+        fontFamily: "JannaLT",
+        color: AppColors.white,
+        fontWeight: .w700,
+      ),
+      labelLarge: TextStyle(
+        fontFamily: "JannaLT",
+        color: AppColors.darkBlack,
+        fontWeight: .bold,
+      ),
+      bodyLarge: TextStyle(
+        fontFamily: "JannaLT",
+        color: AppColors.darkBlack,
+        fontWeight: .bold,
       ),
     ),
   );

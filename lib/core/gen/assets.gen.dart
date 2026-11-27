@@ -282,6 +282,10 @@ class $AssetsImagesGen {
   AssetGenImage get mostRecentImg =>
       const AssetGenImage('assets/images/most_recent_img.png');
 
+  /// Directory path: assets/images/onboarding
+  $AssetsImagesOnboardingGen get onboarding =>
+      const $AssetsImagesOnboardingGen();
+
   /// File path: assets/images/quran_background_img.png
   AssetGenImage get quranBackgroundImg =>
       const AssetGenImage('assets/images/quran_background_img.png');
@@ -293,6 +297,9 @@ class $AssetsImagesGen {
   /// File path: assets/images/splash_logo.svg
   SvgGenImage get splashLogo =>
       const SvgGenImage('assets/images/splash_logo.svg');
+
+  /// Directory path: assets/images/tasbih
+  $AssetsImagesTasbihGen get tasbih => const $AssetsImagesTasbihGen();
 
   /// List of all assets
   List<dynamic> get values => [
@@ -770,6 +777,63 @@ class $AssetsQuranGen {
     a98,
     a99,
   ];
+}
+
+class $AssetsImagesOnboardingGen {
+  const $AssetsImagesOnboardingGen();
+
+  /// File path: assets/images/onboarding/Frame 3-1.png
+  AssetGenImage get frame31 =>
+      const AssetGenImage('assets/images/onboarding/Frame 3-1.png');
+
+  /// File path: assets/images/onboarding/Frame 3-2.png
+  AssetGenImage get frame32 =>
+      const AssetGenImage('assets/images/onboarding/Frame 3-2.png');
+
+  /// File path: assets/images/onboarding/Frame 3-3.png
+  AssetGenImage get frame33 =>
+      const AssetGenImage('assets/images/onboarding/Frame 3-3.png');
+
+  /// File path: assets/images/onboarding/Frame 3.png
+  AssetGenImage get frame3 =>
+      const AssetGenImage('assets/images/onboarding/Frame 3.png');
+
+  /// File path: assets/images/onboarding/Group 31.png
+  AssetGenImage get group31 =>
+      const AssetGenImage('assets/images/onboarding/Group 31.png');
+
+  /// File path: assets/images/onboarding/onboarding2.png
+  AssetGenImage get onboarding2 =>
+      const AssetGenImage('assets/images/onboarding/onboarding2.png');
+
+  /// List of all assets
+  List<AssetGenImage> get values => [
+    frame31,
+    frame32,
+    frame33,
+    frame3,
+    group31,
+    onboarding2,
+  ];
+}
+
+class $AssetsImagesTasbihGen {
+  const $AssetsImagesTasbihGen();
+
+  /// File path: assets/images/tasbih/SebhaBody 1.png
+  AssetGenImage get sebhaBody1 =>
+      const AssetGenImage('assets/images/tasbih/SebhaBody 1.png');
+
+  /// File path: assets/images/tasbih/sebhaHead.png
+  AssetGenImage get sebhaHead =>
+      const AssetGenImage('assets/images/tasbih/sebhaHead.png');
+
+  /// File path: assets/images/tasbih/sebha_bg.png
+  AssetGenImage get sebhaBg =>
+      const AssetGenImage('assets/images/tasbih/sebha_bg.png');
+
+  /// List of all assets
+  List<AssetGenImage> get values => [sebhaBody1, sebhaHead, sebhaBg];
 }
 
 abstract final class Assets {
